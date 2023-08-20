@@ -85,3 +85,57 @@
 .css-modules:hover {
   background: rgba(21, 114, 182, 0.25);
 }
+.prisma {
+  border: 0.1rem solid rgb(84, 229, 11);
+}
+.prisma:hover {
+  background: rgba(5, 154, 25, 0.25);
+}
+.flutter {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.flutter:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+.html {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.html:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+.css {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.css:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+.stripe {
+  border: 2px solid rgb(255, 65, 84);
+}
+.stripe:hover {
+  background: rgba(255, 65, 84, 0.25);
+}
+.api {
+  border: 0.1rem solid rgb(121, 3, 148);
+}
+.api:hover {
+  background: rgba(63, 8, 77, 0.528);
+}
+.replicate {
+  border: 0.1rem solid rgb(185, 223, 18);
+}
+.replicate:hover {
+  background: rgba(108, 118, 11, 0.528);
+}
+.dart {
+  border: 0.1rem solid rgb(185, 223, 18);
+}
+.dart:hover {
+  background: rgba(108, 118, 11, 0.528);
+}
+.material_ui {
+  border: 0.1rem solid rgb(185, 223, 18);
+}
+.material_ui:hover {
+  background: rgba(108, 118, 11, 0.528);
+}

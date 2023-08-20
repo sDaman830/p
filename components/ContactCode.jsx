@@ -1,56 +1,40 @@
 import styles from '../styles/ContactCode.module.css';
 
 const contactItems = [
+ 
   {
-    social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
+    social: 'Leetcode',
+    link: 'daman666',
+    href: 'https://leetcode.com/Daman666/',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'sdaman830@gmail.com',
+    href: 'mailto:sdaman830@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'sDaman830',
+    href: 'https://github.com/sDaman830',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'Damanpreet singh Ghatoura',
+    href: 'https://www.linkedin.com/in/damanpreet-singh-9b25a9225/',
   },
   {
     social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    link: 'Daman142001',
+    href: 'https://twitter.com/Daman142001',
   },
   {
     social: 'instagram',
-    link: 'iamnitinr',
-    href: 'https://www.instagram.com/iamnitinr',
+    link: 'daman_ghatoura',
+    href: 'https://www.instagram.com',
   },
-  {
-    social: 'polywork',
-    link: 'nitinranganath',
-    href: 'https://www.polywork.com/nitinranganath',
-  },
-  {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'codepen',
-    link: 'nitinranganath',
-    href: 'https://codepen.io/itsnitinr',
-  },
-  {
-    social: 'codesandbox',
-    link: 'itsnitinr',
-    href: 'https://codesandbox.io/u/itsnitinr',
-  },
+
+
+
 ];
 
 const ContactCode = () => {

@@ -14,10 +14,33 @@ const GithubPage = ({ repos }) => {
 
   return (
     <>
+      <div className={styles.user}>
+        <div>
+          <Image src="/profile-pic.jpeg" className={styles.avatar}
+            alt="Daman"
+            width={50}
+            height={50} />
+          <h3 className={styles.username}>sDaman830</h3>
+        </div>
+
+        <div>
+          <h3>{repos.length} repos</h3>
+        </div>
+      </div>
+
       <div className={styles.container}>
         {repos.map((repo) => (
           <RepoCard key={repo.id} repo={repo} />
         ))}
+      </div>
+
+      <div className={styles.contributions}>
+        <GitHubCalendar
+          username="sDaman830"
+          theme={theme}
+          hideColorLegend
+          hideMonthLabels
+        />
       </div>
     </>
   );
@@ -28,7 +51,7 @@ export async function getStaticProps() {
     `https://api.github.com/users/sDaman830/repos?per_page=100`,
     {
       headers: {
-        Authorization: `token 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`,
+        Authorization: `token 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`,
       },
     }
   );

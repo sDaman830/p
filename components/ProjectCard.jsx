@@ -8,6 +8,7 @@ const ProjectCard = ({ project }) => {
       <div className={styles.content}>
         <h3>{project.name}</h3>
         <p>{project.description}</p>
+        {project.flag.length === 0 ? null : <span style={{ fontSize: "0.7em" , opacity: "0.5"  }}>{project.flag}</span>}
         <div className={styles.tags}>
           {project.tags.map((tag) => (
             <span key={tag} className={tag}>
@@ -17,6 +18,7 @@ const ProjectCard = ({ project }) => {
         </div>
         <div className={styles.cta}>
           {project.source_code && (
+            
             <a
               href={project.source_code}
               target="_blank"
@@ -26,14 +28,14 @@ const ProjectCard = ({ project }) => {
               Source Code
             </a>
           )}
-          <a
+          {project.demo === false ? null : <a
             href={project.demo}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.underline}
           >
             Live Demo
-          </a>
+          </a>}
         </div>
       </div>
     </div>
